@@ -8,7 +8,7 @@ date: 2020-03-08
 
 <div style="text-align: center;"><div class="wrapper">
     <div class="h_iframe">
-        <iframe height="2" width="2" src="https://www.youtube.com/watch?v=2Z4maIsG9L4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe height="2" width="2" src="https://www.youtube.com/embed/2Z4maIsG9L4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
 </div>
 </div>
