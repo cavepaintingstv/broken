@@ -30,6 +30,12 @@ h1{
   }
 }
 
+/*Divider*/
+/* Solid border */
+hr.solid {
+  border-top: 5px solid #bbb;
+}
+
 /*Fonts*/
 p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
 
