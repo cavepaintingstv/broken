@@ -34,6 +34,9 @@ h1{
 /* Solid border */
 hr.solid {
   border-top: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+
 }
 
 /*Fonts*/
