@@ -33,7 +33,7 @@ h1{
 /*Divider*/
 /* Solid border */
 hr.solid {
-  border-top: 5px solid #bbb;
+  border-top: 1px solid #bbb;
 }
 
 /*Fonts*/
