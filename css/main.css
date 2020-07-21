@@ -64,6 +64,25 @@ footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
   margin: 0 auto;
 }
 
+/*About*/
+  #abt-container img{
+  max-width: 147px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/*Links*/
+  #lnk-container img{
+  max-width: 66px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 /*Image Scaler*/
   #img-container img{
   max-width: 147px;
