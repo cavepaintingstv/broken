@@ -6,7 +6,7 @@ date: 2016-09-30
 
 <p style="font-size:15px">How do?<br><br>
 
-An animation I was commissioned to make for the Game Grumps just went live. Take a look!
+An animation I was commissioned to create for the Game Grumps just went live—check it out!
 
 <div style="text-align: center;"><div class="wrapper">
     <div class="h_iframe">
