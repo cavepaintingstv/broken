@@ -4,7 +4,7 @@ title: "Yaeji - WAKING UP DOWN"
 date: 2020-03-10
 ---
 
-<p style="font-size:15px">Hey everyone!<br><br>
+<p style="font-size:15px">Hey, everyone!<br><br>
 I recently collaborated with the lovely people at Studio Yotta to provide rough animation for the Yaeji music video 'WAKING UP DOWN'.
 You can watch the finished product below.
 <div style="text-align: center;"><div class="wrapper">
