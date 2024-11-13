@@ -2,4 +2,4 @@ name: James Cunningham, GlassCake
 markdown: kramdown
 permalink: /broken/blog/:title
 paginate: 1
-paginate_path: "/_pages/page:num/"
+paginate_path: "/broken/pages/page:num/"
