@@ -19,7 +19,7 @@ layout: feed
    <title>{{ post.title }}</title>
    <link href="/broken/{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>/broken//{{ post.id }}</id>
+   <id>/broken/{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
