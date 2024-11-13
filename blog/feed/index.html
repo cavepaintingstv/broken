@@ -17,7 +17,7 @@ layout: feed
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="/broken{{ post.url }}"/>
+   <link href="https://cavepaintingstv.github.io/broken{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>/broken/{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
