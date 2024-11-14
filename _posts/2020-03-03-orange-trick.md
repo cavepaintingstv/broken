@@ -2,6 +2,7 @@
 layout: post
 title: "Orange Trick"
 date: 2020-03-08
+categories: [blog]
 ---
 
 <p style="font-size:15px">Hi there!<br><br>
