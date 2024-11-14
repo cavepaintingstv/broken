@@ -2,6 +2,7 @@
 layout: post
 title: "Game Grumps Animated"
 date: 2016-09-30
+categories: [blog]
 ---
 
 <p style="font-size:15px">How do?<br><br>
