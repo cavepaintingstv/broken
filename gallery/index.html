@@ -6,6 +6,38 @@ title: Animations | glasscake
 <div class="gallery">
   <h1>Animations</h1>
 
+  <style>
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+    }
+
+    @media only screen and (max-width: 700px){
+        .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+        }
+    }
+
+    @media only screen and (max-width: 500px){
+        .responsive {
+            width: 100%;
+        }
+    }
+
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+  </style>
+
   <div class="responsive">
     <div class="gallery">
       <a href="{{ site.baseurl }}/gallery/you-like-that-junk">
@@ -18,7 +50,7 @@ title: Animations | glasscake
   <div class="responsive">
     <div class="gallery">
       <a href="{{ site.baseurl }}/gallery/orange-trick">
-        <img src="{{ site.baseurl }}/images/orange.jpg" alt="Jared" border="1" width="600" height="400">
+        <img src="{{ site.baseurl }}/images/orange.jpg" alt="Orange Trick" border="1" width="600" height="400">
       </a>
       <div class="desc"><b>Orange Trick</b> - A man and his orange trick.</div>
     </div>
