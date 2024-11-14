@@ -17,20 +17,64 @@
       <div id="logo-container"><img href="{{ site.baseurl }}/" alt="banner" src="https://i.postimg.cc/PxfHDtWm/site3.gif" class="pixelated-image" border="1"/></div>
 
     <!-- Navigation -->
-    <nav>
-      <ul>
-        <li><a href="{{ site.baseurl }}/">Home</a></li>
-        <li>|</li>
-        <li><a href="{{ site.baseurl }}/about">About</a></li>
-        <li>|</li>
-        <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
-        <li>|</li>
-        <li><a href="{{ site.baseurl }}/gallery">Animations</a></li>
-        <li>|</li>
-        <li><a href="{{ site.baseurl }}/blog">Updates</a></li>
-      </ul>
-      <hr class="solid">
-    </nav>
+<nav>
+  <ul>
+    <!-- Home Button -->
+    <li>
+      {% if page.url == "/" %}
+        <span>Home</span> <!-- Static text only on the Home page -->
+      {% else %}
+        <a href="{{ site.baseurl }}/">Home</a> <!-- Link to Home -->
+      {% endif %}
+    </li>
+
+    <li>|</li>
+
+    <!-- About Button -->
+    <li>
+      {% if page.url contains '/about' %}
+        <span>About</span> <!-- Static text on the About page -->
+      {% else %}
+        <a href="{{ site.baseurl }}/about">About</a> <!-- Link to About -->
+      {% endif %}
+    </li>
+
+    <li>|</li>
+
+    <!-- Contact Button -->
+    <li>
+      {% if page.url contains '/contact' %}
+        <span>Contact</span> <!-- Static text on the Contact page -->
+      {% else %}
+        <a href="{{ site.baseurl }}/contact">Contact</a> <!-- Link to Contact -->
+      {% endif %}
+    </li>
+
+    <li>|</li>
+
+    <!-- Animations Button -->
+    <li>
+      {% if page.url contains '/gallery' %}
+        <span>Animations</span> <!-- Static text on the Animations page -->
+      {% else %}
+        <a href="{{ site.baseurl }}/gallery">Animations</a> <!-- Link to Animations -->
+      {% endif %}
+    </li>
+
+    <li>|</li>
+
+    <!-- Updates Button -->
+    <li>
+      {% if page.url contains '/blog' %}
+        <span>Updates</span> <!-- Static text on the Updates page -->
+      {% else %}
+        <a href="{{ site.baseurl }}/blog">Updates</a> <!-- Link to Updates -->
+      {% endif %}
+    </li>
+  </ul>
+  <hr class="solid">
+</nav>
+
 
     <!-- Content -->
     <div class="container">
