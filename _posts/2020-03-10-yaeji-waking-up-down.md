@@ -2,6 +2,7 @@
 layout: post
 title: "Yaeji - WAKING UP DOWN"
 date: 2020-03-10
+categories: [blog]
 ---
 
 <p style="font-size:15px">Hey everyone!<br><br>
